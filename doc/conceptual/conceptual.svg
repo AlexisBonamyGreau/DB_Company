@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="627" height="609" viewBox="0 0 627 609" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="627" height="609" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association teletravaille -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="68" y1="77" x2="206" y2="77" stroke="#bf812d" stroke-width="2"/>
+	<text x="119" y="94" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="344" y1="254" x2="206" y2="77" stroke="#bf812d" stroke-width="2"/>
+	<text x="256" y="186.92" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M235 52 a14 14 90 0 1 14 14 V77 h-86 V66 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M249 77 v11 a14 14 90 0 1 -14 14 H177 a14 14 90 0 1 -14 -14 V77 H86" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="163" y="52" width="86" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="163" y1="77" x2="249" y2="77" stroke="#bf812d" stroke-width="1"/>
+		<text x="170" y="69.75" fill="#000" font-family="Verdana" font-size="12">teletravaille</text>
+	</g>
+</g>
+
+<!-- Association a_pose -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="567" y1="77" x2="453" y2="77" stroke="#bf812d" stroke-width="2"/>
+	<text x="501" y="94" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="344" y1="254" x2="453" y2="77" stroke="#bf812d" stroke-width="2"/>
+	<text x="410" y="167.19" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M468 52 a14 14 90 0 1 14 14 V77 h-58 V66 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M482 77 v11 a14 14 90 0 1 -14 14 H438 a14 14 90 0 1 -14 -14 V77 H58" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="424" y="52" width="58" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="424" y1="77" x2="482" y2="77" stroke="#bf812d" stroke-width="1"/>
+		<text x="431" y="69.75" fill="#000" font-family="Verdana" font-size="12">a_pose</text>
+	</g>
+</g>
+
+<!-- Association valide_tele -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="68" y1="77" x2="68" y2="254" stroke="#bf812d" stroke-width="2"/>
+	<text x="73" y="153" fill="#01665e" font-family="Verdana" font-size="12">0,1</text>
+	<line x1="344" y1="254" x2="68" y2="254" stroke="#bf812d" stroke-width="2"/>
+	<text x="256" y="271" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M95 229 a14 14 90 0 1 14 14 V254 h-82 V243 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M109 254 v11 a14 14 90 0 1 -14 14 H41 a14 14 90 0 1 -14 -14 V254 H82" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="27" y="229" width="82" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="27" y1="254" x2="109" y2="254" stroke="#bf812d" stroke-width="1"/>
+		<text x="35" y="246.75" fill="#000" font-family="Verdana" font-size="12">valide_tele</text>
+	</g>
+</g>
+
+<!-- Association valide_conges -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="567" y1="77" x2="567" y2="254" stroke="#bf812d" stroke-width="2"/>
+	<text x="572" y="162" fill="#01665e" font-family="Verdana" font-size="12">0,1</text>
+	<line x1="344" y1="254" x2="567" y2="254" stroke="#bf812d" stroke-width="2"/>
+	<text x="410" y="271" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M603 229 a14 14 90 0 1 14 14 V254 h-100 V243 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M617 254 v11 a14 14 90 0 1 -14 14 H531 a14 14 90 0 1 -14 -14 V254 H100" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="517" y="229" width="100" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="517" y1="254" x2="617" y2="254" stroke="#bf812d" stroke-width="1"/>
+		<text x="524" y="246.75" fill="#000" font-family="Verdana" font-size="12">valide_conges</text>
+	</g>
+</g>
+
+<!-- Association travaille -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="68" y1="431" x2="206" y2="431" stroke="#bf812d" stroke-width="2"/>
+	<text x="132" y="448" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="344" y1="254" x2="206" y2="431" stroke="#bf812d" stroke-width="2"/>
+	<text x="256" y="330.08" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M224 406 a14 14 90 0 1 14 14 V431 h-64 V420 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M238 431 v11 a14 14 90 0 1 -14 14 H188 a14 14 90 0 1 -14 -14 V431 H64" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="174" y="406" width="64" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="174" y1="431" x2="238" y2="431" stroke="#bf812d" stroke-width="1"/>
+		<text x="182" y="423.75" fill="#000" font-family="Verdana" font-size="12">travaille</text>
+	</g>
+</g>
+
+<!-- Association travaille_sup -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="344" y1="541" x2="344" y2="431" stroke="#bf812d" stroke-width="2"/>
+	<text x="349" y="474" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="344" y1="254" x2="344" y2="431" stroke="#bf812d" stroke-width="2"/>
+	<text x="349" y="398" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M376 406 a14 14 90 0 1 14 14 V431 h-92 V420 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M390 431 v11 a14 14 90 0 1 -14 14 H312 a14 14 90 0 1 -14 -14 V431 H92" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="298" y="406" width="92" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="298" y1="431" x2="390" y2="431" stroke="#bf812d" stroke-width="1"/>
+		<text x="305" y="423.75" fill="#000" font-family="Verdana" font-size="12">travaille_sup</text>
+	</g>
+</g>
+
+<!-- Association informe -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="567" y1="431" x2="453" y2="431" stroke="#bf812d" stroke-width="2"/>
+	<text x="490" y="448" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="344" y1="254" x2="453" y2="431" stroke="#bf812d" stroke-width="2"/>
+	<text x="410" y="349.81" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M470 406 a14 14 90 0 1 14 14 V431 h-62 V420 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M484 431 v11 a14 14 90 0 1 -14 14 H436 a14 14 90 0 1 -14 -14 V431 H62" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="422" y="406" width="62" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="422" y1="431" x2="484" y2="431" stroke="#bf812d" stroke-width="1"/>
+		<text x="430" y="423.75" fill="#000" font-family="Verdana" font-size="12">informe</text>
+	</g>
+</g>
+
+<!-- Association dans_semaine -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<line x1="206" y1="541" x2="68" y2="541" stroke="#bf812d" stroke-width="2"/>
+	<text x="125" y="558" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="68" y1="431" x2="68" y2="541" stroke="#bf812d" stroke-width="2"/>
+	<text x="73" y="482" fill="#01665e" font-family="Verdana" font-size="12">0,6</text>
+	<g>
+		<path d="M105 516 a14 14 90 0 1 14 14 V541 h-102 V530 a14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+		<path d="M119 541 v11 a14 14 90 0 1 -14 14 H31 a14 14 90 0 1 -14 -14 V541 H102" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+		<rect x="17" y="516" width="102" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+		<line x1="17" y1="541" x2="119" y2="541" stroke="#bf812d" stroke-width="1"/>
+		<text x="24" y="533.75" fill="#000" font-family="Verdana" font-size="12">dans_semaine</text>
+	</g>
+</g>
+
+<!-- Entity TELETRAVAIL -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="22" y="18" width="92" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="22" y="43" width="92" height="93" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="22" y="18" width="92" height="118" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="22" y1="43" x2="114" y2="43" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="27" y="35.75" fill="#000" font-family="Verdana" font-size="12">TELETRAVAIL</text>
+	<text x="27" y="60.8" fill="#000" font-family="Verdana" font-size="12">id_teletravail</text>
+	<line x1="27" y1="63" x2="107" y2="63" stroke="#000" stroke-width="1"/>
+	<text x="27" y="77.8" fill="#000" font-family="Verdana" font-size="12">date_debut</text>
+	<text x="27" y="94.8" fill="#000" font-family="Verdana" font-size="12">date_fin</text>
+	<text x="27" y="111.8" fill="#000" font-family="Verdana" font-size="12">duree</text>
+	<text x="27" y="128.8" fill="#000" font-family="Verdana" font-size="12">est_valide</text>
+</g>
+
+<!-- Entity CONGES -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="527" y="9" width="80" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="527" y="34" width="80" height="111" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="527" y="9" width="80" height="136" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="527" y1="34" x2="607" y2="34" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="541" y="26.75" fill="#000" font-family="Verdana" font-size="12">CONGES</text>
+	<text x="532" y="51.8" fill="#000" font-family="Verdana" font-size="12">id_conges</text>
+	<line x1="532" y1="54" x2="593" y2="54" stroke="#000" stroke-width="1"/>
+	<text x="532" y="68.8" fill="#000" font-family="Verdana" font-size="12">date_debut</text>
+	<text x="532" y="85.8" fill="#000" font-family="Verdana" font-size="12">date_fin</text>
+	<text x="532" y="102.8" fill="#000" font-family="Verdana" font-size="12">duree</text>
+	<text x="532" y="119.8" fill="#000" font-family="Verdana" font-size="12">est_valide</text>
+	<text x="532" y="136.8" fill="#000" font-family="Verdana" font-size="12">type</text>
+</g>
+
+<!-- Entity UTILISATEUR -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="283" y="127" width="122" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="283" y="152" width="122" height="229" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="283" y="127" width="122" height="254" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="283" y1="152" x2="405" y2="152" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="303" y="144.75" fill="#000" font-family="Verdana" font-size="12">UTILISATEUR</text>
+	<text x="288" y="169.8" fill="#000" font-family="Verdana" font-size="12">id_utilisateur</text>
+	<line x1="288" y1="172" x2="368" y2="172" stroke="#000" stroke-width="1"/>
+	<text x="288" y="186.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="288" y="203.8" fill="#000" font-family="Verdana" font-size="12">prenom</text>
+	<text x="288" y="220.8" fill="#000" font-family="Verdana" font-size="12">date_naissance</text>
+	<text x="288" y="237.8" fill="#000" font-family="Verdana" font-size="12">adresse</text>
+	<text x="288" y="254.8" fill="#000" font-family="Verdana" font-size="12">telephone</text>
+	<text x="288" y="271.8" fill="#000" font-family="Verdana" font-size="12">mail</text>
+	<text x="288" y="288.8" fill="#000" font-family="Verdana" font-size="12">password</text>
+	<text x="288" y="305.8" fill="#000" font-family="Verdana" font-size="12">dette_travail</text>
+	<text x="288" y="322.8" fill="#000" font-family="Verdana" font-size="12">dette_conges</text>
+	<text x="288" y="339.8" fill="#000" font-family="Verdana" font-size="12">dette_teletravail</text>
+	<text x="288" y="356.8" fill="#000" font-family="Verdana" font-size="12">peut_teletravailler</text>
+	<text x="288" y="373.8" fill="#000" font-family="Verdana" font-size="12">est_reponsable</text>
+</g>
+
+<!-- Entity HORAIRE_HEBDO -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="9" y="397" width="118" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="9" y="422" width="118" height="43" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="9" y="397" width="118" height="68" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="422" x2="127" y2="422" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="14" y="414.75" fill="#000" font-family="Verdana" font-size="12">HORAIRE_HEBDO</text>
+	<text x="14" y="439.8" fill="#000" font-family="Verdana" font-size="12">id_horaire_hebdo</text>
+	<line x1="14" y1="442" x2="121" y2="442" stroke="#000" stroke-width="1"/>
+	<text x="14" y="456.8" fill="#000" font-family="Verdana" font-size="12">duree</text>
+</g>
+
+<!-- Entity NOTIFICATION -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="516" y="389" width="102" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="516" y="414" width="102" height="59" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="516" y="389" width="102" height="84" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="516" y1="414" x2="618" y2="414" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="522" y="406.75" fill="#000" font-family="Verdana" font-size="12">NOTIFICATION</text>
+	<text x="521" y="431.8" fill="#000" font-family="Verdana" font-size="12">id_notification</text>
+	<line x1="521" y1="434" x2="607" y2="434" stroke="#000" stroke-width="1"/>
+	<text x="521" y="448.8" fill="#000" font-family="Verdana" font-size="12">message</text>
+	<text x="521" y="465.8" fill="#000" font-family="Verdana" font-size="12">lien</text>
+</g>
+
+<!-- Entity HORAIRE_QUOT -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="151" y="490" width="110" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="151" y="515" width="110" height="77" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="151" y="490" width="110" height="102" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="151" y1="515" x2="261" y2="515" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="156" y="507.75" fill="#000" font-family="Verdana" font-size="12">HORAIRE_QUOT</text>
+	<text x="156" y="532.8" fill="#000" font-family="Verdana" font-size="12">id_horaire_qot</text>
+	<line x1="156" y1="535" x2="245" y2="535" stroke="#000" stroke-width="1"/>
+	<text x="156" y="549.8" fill="#000" font-family="Verdana" font-size="12">heure_debut</text>
+	<text x="156" y="566.8" fill="#000" font-family="Verdana" font-size="12">heure_fin</text>
+	<text x="156" y="583.8" fill="#000" font-family="Verdana" font-size="12">duree</text>
+</g>
+
+<!-- Entity HEURE_SUPP -->
+<g class="page_0_6AhWeQPx diagram_page" visibility="visible">
+	<g>
+		<rect x="293" y="482" width="102" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0" opacity="1"/>
+		<rect x="293" y="507" width="102" height="93" fill="#c7eae5" stroke="#c7eae5" stroke-width="0" opacity="1"/>
+		<rect x="293" y="482" width="102" height="118" fill="none" stroke="#35978f" stroke-width="2" opacity="1"/>
+		<line x1="293" y1="507" x2="395" y2="507" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="304" y="499.75" fill="#000" font-family="Verdana" font-size="12">HEURE_SUPP</text>
+	<text x="298" y="524.8" fill="#000" font-family="Verdana" font-size="12">id_heure_supp</text>
+	<line x1="298" y1="527" x2="389" y2="527" stroke="#000" stroke-width="1"/>
+	<text x="298" y="541.8" fill="#000" font-family="Verdana" font-size="12">date</text>
+	<text x="298" y="558.8" fill="#000" font-family="Verdana" font-size="12">heure_debut</text>
+	<text x="298" y="575.8" fill="#000" font-family="Verdana" font-size="12">heure_fin</text>
+	<text x="298" y="592.8" fill="#000" font-family="Verdana" font-size="12">duree</text>
+</g>
+</svg>

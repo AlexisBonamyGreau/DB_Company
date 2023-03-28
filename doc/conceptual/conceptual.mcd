@@ -1,0 +1,23 @@
+TELETRAVAIL : id_teletravail, date_debut, date_fin, duree, est_valide
+teletravaille, 11 TELETRAVAIL, 0N UTILISATEUR
+:
+a_pose, 11 CONGES, 0N UTILISATEUR
+CONGES : id_conges, date_debut, date_fin, duree, est_valide, type
+
+valide_tele, 01 TELETRAVAIL, 0N UTILISATEUR
+:
+UTILISATEUR : id_utilisateur, nom, prenom, date_naissance, adresse, telephone, mail, password, dette_travail, dette_conges, dette_teletravail, peut_teletravailler, est_reponsable
+:
+valide_conges, 01 CONGES, 0N UTILISATEUR
+
+HORAIRE_HEBDO : id_horaire_hebdo, duree
+travaille, 11 HORAIRE_HEBDO , 0N UTILISATEUR
+travaille_sup, 11 HEURE_SUPP, 0N UTILISATEUR
+informe, 11 NOTIFICATION, 0N UTILISATEUR
+NOTIFICATION : id_notification, message, lien
+
+dans_semaine, 11 HORAIRE_QUOT, 06 HORAIRE_HEBDO
+HORAIRE_QUOT : id_horaire_qot, heure_debut, heure_fin, duree
+HEURE_SUPP : id_heure_supp, date, heure_debut, heure_fin, duree
+:
+:
