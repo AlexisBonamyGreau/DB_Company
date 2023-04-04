@@ -1,23 +1,25 @@
-TELETRAVAIL : id_teletravail, date_debut, date_fin, duree, est_valide
-teletravaille, 11 TELETRAVAIL, 0N UTILISATEUR
+TELETRAVAIL : id, date_debut, date_fin, est_valide
+teletravaille, 11 TELETRAVAIL, 0N EMPLOYE
 :
-a_pose, 11 CONGES, 0N UTILISATEUR
-CONGES : id_conges, date_debut, date_fin, duree, est_valide, type
+a_pose, 11 CONGES, 0N EMPLOYE
+CONGES : id, type, date_debut, date_fin, est_valide
 
-valide_tele, 01 TELETRAVAIL, 0N UTILISATEUR
+valide_tt, 11 TELETRAVAIL, 0N EMPLOYE
 :
-UTILISATEUR : id_utilisateur, nom, prenom, date_naissance, adresse, telephone, mail, password, dette_travail, dette_conges, dette_teletravail, peut_teletravailler, est_reponsable
 :
-valide_conges, 01 CONGES, 0N UTILISATEUR
+:
+valide_conges, 11 CONGES, 0N EMPLOYE
 
-HORAIRE_HEBDO : id_horaire_hebdo, duree
-travaille, 11 HORAIRE_HEBDO , 0N UTILISATEUR
-travaille_sup, 11 HEURE_SUPP, 0N UTILISATEUR
-informe, 11 NOTIFICATION, 0N UTILISATEUR
-NOTIFICATION : id_notification, message, lien
+ABSCENCE : id, date_debut, date_fin
+est_absent, 11 ABSCENCE, 0N EMPLOYE
+EMPLOYE : id, nom, prenom, date_naissance, adresse, telephone, mail, mdp, poste, tt_possible, est_reponsable
+informe, 0N EMPLOYE, 11 NOTIFICATION
+NOTIFICATION : id, message
 
-dans_semaine, 11 HORAIRE_QUOT, 06 HORAIRE_HEBDO
-HORAIRE_QUOT : id_horaire_qot, heure_debut, heure_fin, duree
-HEURE_SUPP : id_heure_supp, date, heure_debut, heure_fin, duree
+travaille_sup, 11 HEURE_SUPP, 0N EMPLOYE
 :
+travaille, 11 HORAIRES, 0N EMPLOYE
+
+HEURE_SUPP : id, date, heure_debut, heure_fin
 :
+HORAIRES : id, date, numero_semaine, heure_debut, heure_fin
