@@ -1,0 +1,83 @@
+@startuml
+
+entity Employe  {
+  + id (PK)
+  --
+  nom
+  prenom
+  date_naissance
+  adresse
+  adresse_mail
+  numero_telephone
+  poste
+  identifiant
+  mot_de_passe
+  tt_possible
+  est_responsable
+}
+
+entity Teletravail  {
+  + id (PK)
+  --
+  # id_employe (FK)
+  # id_responsable_validant (FK)
+  date_debut
+  date_fin
+  est_valide
+}
+
+entity Conges {
+  + id (PK)
+  --
+  # id_employe (FK)
+  # id_responsable_validant (FK)
+  type
+  date_debut
+  date_fin
+  est_valide
+}
+
+entity Abscence {
+  + id (PK)
+  --
+  # id_employe (FK)
+  date_debut
+  date_fin
+}
+
+entity Heures_Sup {
+  + id (PK)
+  --
+  # id_employe (FK)
+  date
+  heure_debut
+  heure_fin
+}
+
+entity Notification {
+  + id (PK)
+  --
+  # id_employe (FK)
+  message
+}
+
+entity Horaires {
+  + id (PK)
+  --
+  # id_employe (FK)
+  date
+  numero_semaine
+  heure_debut
+  heure_fin
+}
+
+Teletravail -down-> Employe
+Teletravail -down-> Employe
+Conges -down-> Employe
+Conges -down-> Employe
+Abscence -up-> Employe
+Heures_Sup -up-> Employe
+Notification -up-> Employe
+Horaires -up-> Employe
+
+@enduml
