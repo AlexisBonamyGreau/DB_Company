@@ -1,7 +1,7 @@
 @startuml
 
 entity Employe  {
-  + id (PK)
+  + id_emp (PK)
   --
   nom
   prenom
@@ -16,7 +16,7 @@ entity Employe  {
 }
 
 entity Teletravail  {
-  + id (PK)
+  + id_tt (PK)
   --
   # id_employe (FK)
   # id_responsable_validant (FK)
@@ -26,7 +26,7 @@ entity Teletravail  {
 }
 
 entity Conges {
-  + id (PK)
+  + id_conges (PK)
   --
   # id_employe (FK)
   # id_responsable_validant (FK)
@@ -37,7 +37,7 @@ entity Conges {
 }
 
 entity Abscence {
-  + id (PK)
+  + id_abs (PK)
   --
   # id_employe (FK)
   date_debut
@@ -45,7 +45,7 @@ entity Abscence {
 }
 
 entity HeureSupp {
-  + id (PK)
+  + id_hsupp (PK)
   --
   # id_employe (FK)
   date
@@ -55,14 +55,14 @@ entity HeureSupp {
 }
 
 entity Notification {
-  + id (PK)
+  + id_notif (PK)
   --
   # id_employe (FK)
   message
 }
 
 entity Horaire {
-  + id (PK)
+  + id_horaire (PK)
   --
   # id_employe (FK)
   date
