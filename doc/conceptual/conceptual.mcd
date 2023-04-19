@@ -14,7 +14,7 @@ ABSCENCE : id, date_debut, date_fin
 est_absent, 11 ABSCENCE, 0N EMPLOYE
 EMPLOYE : id, nom, prenom, date_naissance, adresse, telephone, mail, mdp, poste, tt_possible, est_reponsable
 informe, 0N EMPLOYE, 11 NOTIFICATION
-NOTIFICATION : id, message
+NOTIFICATION : id, date, message, est_lue
 
 travaille_sup, 11 HEURE_SUPP, 0N EMPLOYE
 :

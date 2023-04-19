@@ -58,7 +58,10 @@ entity Notification {
   + id_notif (PK)
   --
   # id_employe (FK)
+  date
   message
+  message
+  est_lue
 }
 
 entity Horaire {
