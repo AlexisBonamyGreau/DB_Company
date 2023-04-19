@@ -60,7 +60,6 @@ entity Notification {
   # id_employe (FK)
   date_notif
   message
-  message
   est_lue
 }
 

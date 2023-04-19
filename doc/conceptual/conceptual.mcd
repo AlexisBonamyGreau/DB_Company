@@ -1,8 +1,8 @@
-TELETRAVAIL : id, date_debut, date_fin, est_valide
+TELETRAVAIL : id_tt, date_debut, date_fin, est_valide
 teletravaille, 11 TELETRAVAIL, 0N EMPLOYE
 :
 a_pose, 11 CONGES, 0N EMPLOYE
-CONGES : id, type, date_debut, date_fin, est_valide
+CONGES : id_conges, type, date_debut, date_fin, est_valide
 
 valide_tt, 01 TELETRAVAIL, 0N EMPLOYE
 :
@@ -10,16 +10,16 @@ valide_tt, 01 TELETRAVAIL, 0N EMPLOYE
 :
 valide_conges, 01 CONGES, 0N EMPLOYE
 
-ABSCENCE : id, date_debut, date_fin
+ABSCENCE : id_abs, date_debut, date_fin
 est_absent, 11 ABSCENCE, 0N EMPLOYE
-EMPLOYE : id, nom, prenom, date_naissance, adresse, telephone, mail, mdp, poste, tt_possible, est_reponsable
+EMPLOYE : id_emp, nom, prenom, date_naissance, adresse, telephone, mail, mdp, poste, tt_possible, est_reponsable
 informe, 0N EMPLOYE, 11 NOTIFICATION
-NOTIFICATION : id, date, message, est_lue
+NOTIFICATION : id_notif, date_notif, message, est_lue
 
 travaille_sup, 11 HEURE_SUPP, 0N EMPLOYE
 :
-travaille, 11 HORAIRES, 0N EMPLOYE
+travaille, 11 HORAIRE, 0N EMPLOYE
 
-HEURE_SUPP : id, date, numero_semaine, heure_debut, heure_fin
+HEURE_SUPP : id_hsupp, date_hsupp, numero_semaine, heure_debut, heure_fin
 :
-HORAIRES : id, date, numero_semaine, heure_debut, heure_fin
+HORAIRE : id_horaire, date, numero_semaine, heure_debut, heure_fin
