@@ -17,18 +17,18 @@ Then, run the following scripts in the following order:
 
 ## Features
 
-# Requests
+### Requests
 
 TODO - Create at least 5 requests with GROUP BY and HAVING
 
-# Constraints
+### Constraints
 
 TODO - Create coherent constraints according to the database
 
-# Triggers
+### Triggers
 
 TODO - Create at least 4 triggers
 
-# Views
+### Views
 
 TODO - Create at least 4 views
