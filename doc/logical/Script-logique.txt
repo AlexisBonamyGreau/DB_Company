@@ -48,7 +48,7 @@ entity HeureSupp {
   + id_hsupp (PK)
   --
   # id_employe (FK)
-  date
+  date_hsupp
   numero_semaine
   heure_debut
   heure_fin
@@ -58,7 +58,7 @@ entity Notification {
   + id_notif (PK)
   --
   # id_employe (FK)
-  date
+  date_notif
   message
   message
   est_lue
@@ -68,7 +68,7 @@ entity Horaire {
   + id_horaire (PK)
   --
   # id_employe (FK)
-  date
+  date_horaire
   numero_semaine
   heure_debut
   heure_fin
