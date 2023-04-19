@@ -4,11 +4,11 @@ teletravaille, 11 TELETRAVAIL, 0N EMPLOYE
 a_pose, 11 CONGES, 0N EMPLOYE
 CONGES : id, type, date_debut, date_fin, est_valide
 
-valide_tt, 11 TELETRAVAIL, 0N EMPLOYE
+valide_tt, 01 TELETRAVAIL, 0N EMPLOYE
 :
 :
 :
-valide_conges, 11 CONGES, 0N EMPLOYE
+valide_conges, 01 CONGES, 0N EMPLOYE
 
 ABSCENCE : id, date_debut, date_fin
 est_absent, 11 ABSCENCE, 0N EMPLOYE
@@ -20,6 +20,6 @@ travaille_sup, 11 HEURE_SUPP, 0N EMPLOYE
 :
 travaille, 11 HORAIRES, 0N EMPLOYE
 
-HEURE_SUPP : id, date, heure_debut, heure_fin
+HEURE_SUPP : id, date, numero_semaine, heure_debut, heure_fin
 :
 HORAIRES : id, date, numero_semaine, heure_debut, heure_fin

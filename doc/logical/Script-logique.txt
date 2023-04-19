@@ -7,13 +7,12 @@ entity Employe  {
   prenom
   date_naissance
   adresse
-  adresse_mail
-  numero_telephone
+  telephone
+  mail
+  mdp
   poste
-  identifiant
-  mot_de_passe
   tt_possible
-  est_responsable
+  est_reponsable
 }
 
 entity Teletravail  {
@@ -50,6 +49,7 @@ entity Heures_Sup {
   --
   # id_employe (FK)
   date
+  numero_semaine
   heure_debut
   heure_fin
 }
