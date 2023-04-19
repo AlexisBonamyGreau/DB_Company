@@ -20,6 +20,6 @@ travaille_sup, 11 HEURE_SUPP, 0N EMPLOYE
 :
 travaille, 11 HORAIRE, 0N EMPLOYE
 
-HEURE_SUPP : id_hsupp, date_hsupp, numero_semaine, heure_debut, heure_fin
+HEURE_SUPP : id_hsupp, numero_semaine, heure_debut, heure_fin
 :
-HORAIRE : id_horaire, date, numero_semaine, heure_debut, heure_fin
+HORAIRE : id_horaire, numero_semaine, heure_debut, heure_fin

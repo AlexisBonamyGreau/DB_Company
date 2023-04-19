@@ -62,10 +62,9 @@ CREATE TABLE HEURESUPP
   (
     id_hsupp INT NOT NULL,
     id_employe INT NOT NULL,
-    date_hsupp DATE NOT NULL,
     numero_semaine INT NOT NULL,
-    heure_debut TIMESTAMP NOT NULL,
-    heure_fin TIMESTAMP NOT NULL,
+    heure_debut DATE NOT NULL,
+    heure_fin DATE NOT NULL,
     PRIMARY KEY (id_hsupp),
     FOREIGN KEY (id_employe) REFERENCES EMPLOYE(id_emp) ON DELETE CASCADE
   );
@@ -85,10 +84,9 @@ CREATE TABLE HORAIRE
   (
     id_horaire INT NOT NULL,
     id_employe INT NOT NULL,
-    date_horaire DATE NOT NULL,
     numero_semaine INT NOT NULL,
-    heure_debut TIMESTAMP NOT NULL,
-    heure_fin TIMESTAMP NOT NULL,
+    heure_debut DATE NOT NULL,
+    heure_fin DATE NOT NULL,
     PRIMARY KEY (id_horaire),
     FOREIGN KEY (id_employe) REFERENCES EMPLOYE(id_emp) ON DELETE CASCADE
   );

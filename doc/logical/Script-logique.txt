@@ -48,7 +48,6 @@ entity HeureSupp {
   + id_hsupp (PK)
   --
   # id_employe (FK)
-  date_hsupp
   numero_semaine
   heure_debut
   heure_fin
@@ -67,7 +66,6 @@ entity Horaire {
   + id_horaire (PK)
   --
   # id_employe (FK)
-  date_horaire
   numero_semaine
   heure_debut
   heure_fin
