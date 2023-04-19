@@ -44,7 +44,7 @@ entity Abscence {
   date_fin
 }
 
-entity Heures_Sup {
+entity HeureSupp {
   + id (PK)
   --
   # id_employe (FK)
@@ -61,7 +61,7 @@ entity Notification {
   message
 }
 
-entity Horaires {
+entity Horaire {
   + id (PK)
   --
   # id_employe (FK)
