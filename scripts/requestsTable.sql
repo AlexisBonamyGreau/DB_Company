@@ -24,5 +24,12 @@ FROM EMPLOYE
 JOIN HEURESUPP ON EMPLOYE.id_emp = HEURESUPP.id_employe;
 
 -- Find the number of telework days taken by each employee separating validated and not validated
+SELECT id_employe, est_valide, COUNT(*) as nb_tt
+FROM teletravail
+GROUP BY id_employe, est_valide;
 
 -- Find the positions with more than 5 employees
+SELECT poste, COUNT(*) as nb_employes
+FROM employe
+GROUP BY poste
+HAVING COUNT(*) > 5;
