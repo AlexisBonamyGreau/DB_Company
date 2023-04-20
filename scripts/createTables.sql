@@ -99,11 +99,11 @@ CREATE TABLE RAPPORTHEBDO
     id_employe INT NOT NULL,
     numero_semaine INT NOT NULL,
     annee INT NOT NULL,
-    tps_tt INT NOT NULL,
-    tps_conges INT NOT NULL,
-    tps_abs INT NOT NULL,
-    tps_hsupp INT NOT NULL,
-    tps_travail INT NOT NULL,
+    tps_tt INT NOT NULL, -- Temps de télétravail (en jours)
+    tps_conges INT NOT NULL, -- Temps de congés (en jours)
+    tps_abs INT NOT NULL, -- Temps d'absence (en jours)
+    tps_hsupp INT NOT NULL, -- Temps d'heures supplémentaires (en heures)
+    tps_travail INT NOT NULL, -- Temps de travail (en heures)
     PRIMARY KEY (id_rapport),
     FOREIGN KEY (id_employe) REFERENCES EMPLOYE(id_emp) ON DELETE CASCADE
   );
