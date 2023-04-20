@@ -78,10 +78,11 @@ entity RapportHebdo {
   # id_employe (FK)
   numero_semaine
   annee
-  temps_tt
-  temps_conges
-  temps_horaire
-  temps_heure_supp
+  tps_tt
+  tps_conges
+  tps_abs
+  tps_travail
+  tps_heure_supp
 }
 
 Teletravail -down-> Employe

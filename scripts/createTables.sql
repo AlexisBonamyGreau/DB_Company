@@ -5,6 +5,7 @@ DROP TABLE ABSENCE CASCADE CONSTRAINTS;
 DROP TABLE HEURESUPP CASCADE CONSTRAINTS;
 DROP TABLE NOTIFICATION CASCADE CONSTRAINTS;
 DROP TABLE HORAIRE CASCADE CONSTRAINTS;
+DROP TABLE RAPPORTHEBDO CASCADE CONSTRAINTS;
 
 CREATE TABLE EMPLOYE
   (
@@ -62,6 +63,7 @@ CREATE TABLE HEURESUPP
   (
     id_hsupp INT NOT NULL,
     id_employe INT NOT NULL,
+    id_responsable_validant INT,
     numero_semaine INT NOT NULL,
     heure_debut DATE NOT NULL,
     heure_fin DATE NOT NULL,
@@ -88,5 +90,20 @@ CREATE TABLE HORAIRE
     heure_debut DATE NOT NULL,
     heure_fin DATE NOT NULL,
     PRIMARY KEY (id_horaire),
+    FOREIGN KEY (id_employe) REFERENCES EMPLOYE(id_emp) ON DELETE CASCADE
+  );
+
+CREATE TABLE RAPPORTHEBDO
+  (
+    id_rapport INT NOT NULL,
+    id_employe INT NOT NULL,
+    numero_semaine INT NOT NULL,
+    annee INT NOT NULL,
+    tps_tt INT NOT NULL,
+    tps_conges INT NOT NULL,
+    tps_abs INT NOT NULL,
+    tps_hsupp INT NOT NULL,
+    tps_travail INT NOT NULL,
+    PRIMARY KEY (id_rapport),
     FOREIGN KEY (id_employe) REFERENCES EMPLOYE(id_emp) ON DELETE CASCADE
   );

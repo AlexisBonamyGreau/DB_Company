@@ -23,5 +23,5 @@ travaille, 11 HORAIRE, 0N EMPLOYE
 
 HEURE_SUPP : id_hsupp, numero_semaine, heure_debut, heure_fin
 valide_hsupp, 01 HEURE_SUPP, 0N EMPLOYE
-RAPPORT_HEBDO: id_rapport, id_employe, numero_semaine, annee, tps_tt, tps_conges, tps_horaire, tps_heure_supp, tps_abscence
+RAPPORT_HEBDO: id_rapport, id_employe, numero_semaine, annee, tps_tt, tps_conges, tps_abs, tps_travail, tps_heure_supp
 HORAIRE : id_horaire, numero_semaine, heure_debut, heure_fin
