@@ -48,6 +48,7 @@ entity HeureSupp {
   + id_hsupp (PK)
   --
   # id_employe (FK)
+  # id_responsable_validant (FK)
   numero_semaine
   heure_debut
   heure_fin
@@ -71,13 +72,27 @@ entity Horaire {
   heure_fin
 }
 
+entity RapportHebdo {
+  + id_rapport (PK)
+  --
+  # id_employe (FK)
+  numero_semaine
+  annee
+  temps_tt
+  temps_conges
+  temps_horaire
+  temps_heure_supp
+}
+
 Teletravail -down-> Employe
 Teletravail -down-> Employe
 Conges -down-> Employe
 Conges -down-> Employe
+HeureSupp -down-> Employe
+HeureSupp -down-> Employe
 Abscence -up-> Employe
-Heures_Sup -up-> Employe
-Notification -up-> Employe
-Horaires -up-> Employe
+Notification -right-> Employe
+Horaire -up-> Employe
+RapportHebdo -left-> Employe
 
 @enduml
