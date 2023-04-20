@@ -9,6 +9,8 @@ TRUNCATE TABLE HORAIRE CASCADE;
 -- Insertion des données dans la table EMPLOYE
 INSERT INTO EMPLOYE VALUES (1, 'Dupont', 'Jean', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'jean.dupont@company.com', 'pass', 'Directeur Général', 1, 1);
 INSERT INTO EMPLOYE VALUES (2, 'Durand', 'Pierre', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'pierre.durand@company.com', 'pass', 'Directeur de service', 1, 1);
+INSERT INTO EMPLOYE VALUES (3, 'Martin', 'Paul', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'paul.martin@company.com', 'pass', 'Directeur de service', 1, 1);
+INSERT INTO EMPLOYE VALUES (4, 'Bernard', 'Jacques', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'bernard.jacques@company.com', 'pass', 'Ingenieur conception', 1, 0);
 
 -- Insertion des données dans la table TELETRAVAIL
 INSERT INTO TELETRAVAIL VALUES (1, 2, 1, to_date('2023-04-19', 'YYYY-MM-DD'), to_date('2023-04-19', 'YYYY-MM-DD'), 1);
