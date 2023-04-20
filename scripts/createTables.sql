@@ -27,7 +27,7 @@ CREATE TABLE TELETRAVAIL
   (
     id_tt INT NOT NULL,
     id_employe INT NOT NULL,
-    id_responsable_validant INT NOT NULL,
+    id_responsable_validant INT,
     date_debut DATE NOT NULL,
     date_fin DATE NOT NULL,
     est_valide INT NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE CONGES
   (
     id_conges INT NOT NULL,
     id_employe INT NOT NULL,
-    id_responsable_validant INT NOT NULL,
+    id_responsable_validant INT,
     date_debut DATE NOT NULL,
     date_fin DATE NOT NULL,
     est_valide INT NOT NULL,
