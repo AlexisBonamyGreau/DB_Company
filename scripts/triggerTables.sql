@@ -54,7 +54,7 @@ DECLARE
 BEGIN
   -- Créer une notification pour l'employé
   INSERT INTO NOTIFICATION (id_notif, id_employe, date_notif, message, est_lue)
-  VALUES (NOTIFICATION_SEQ.NEXTVAL, :OLD.id_employe, SYSDATE, 'Votre demande de congé a été supprimée.', 0);
+  VALUES (NOTIFICATION_SEQ.NEXTVAL, :OLD.id_employe, SYSDATE, 'Votre demande de congé a été refusée.', 0);
 END;
 /
 -- Test

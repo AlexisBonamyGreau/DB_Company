@@ -20,6 +20,9 @@ SELECT e.nom, e.prenom, hs.numero_semaine, SUM((hs.heure_fin - hs.heure_debut) *
 FROM EMPLOYE e
 JOIN HEURESUPP hs ON e.id_emp = hs.id_employe
 GROUP BY e.nom, e.prenom, hs.numero_semaine;
+-- Test
+SELECT * FROM HEURESUPP_SEMAINE;
+SELECT * FROM HEURESUPP;
 
 -- Notification not read
 CREATE VIEW NOTIFICATIONS_NON_LUES AS
@@ -27,3 +30,6 @@ SELECT id_emp, COUNT(*) AS nb_notifications_non_lues
 FROM EMPLOYE e JOIN NOTIFICATION n ON e.id_emp = n.id_employe
 WHERE n.est_lue = 0
 GROUP BY id_emp;
+-- Test
+SELECT * FROM NOTIFICATIONS_NON_LUES;
+SELECT * FROM NOTIFICATION;
