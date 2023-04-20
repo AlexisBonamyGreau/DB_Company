@@ -19,9 +19,11 @@ INSERT INTO TELETRAVAIL VALUES (1, 2, 1, to_date('2023-04-19', 'YYYY-MM-DD'), to
 
 -- Insertion des données dans la table CONGES
 INSERT INTO CONGES VALUES (1, 2, 1, to_date('2023-04-24', 'YYYY-MM-DD'), to_date('2023-04-28', 'YYYY-MM-DD'), 1);
+INSERT INTO CONGES VALUES (2, 3, 1, to_date('2023-04-24', 'YYYY-MM-DD'), to_date('2023-04-28', 'YYYY-MM-DD'), 0);
 
 -- Insertion des données dans la table ABSENCE
 INSERT INTO ABSENCE VALUES (1, 2, to_date('2023-04-20', 'YYYY-MM-DD'), to_date('2023-04-20', 'YYYY-MM-DD'));
+INSERT INTO ABSENCE VALUES (2, 4, to_date('2023-04-21', 'YYYY-MM-DD'), to_date('2023-04-21', 'YYYY-MM-DD'));
 
 -- Insertion des données dans la table HEURESUPP
 INSERT INTO HEURESUPP VALUES (1, 2, 1, 16, to_date('2023-04-21 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), to_date('2023-04-21 19:00:00', 'YYYY-MM-DD HH24:MI:SS'));

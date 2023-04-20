@@ -12,7 +12,7 @@ BEGIN
 END;
 /
 -- Test
-INSERT INTO CONGES VALUES (2, 3, 1, to_date('2023-04-24', 'YYYY-MM-DD'), to_date('2023-04-28', 'YYYY-MM-DD'), 0);
+INSERT INTO CONGES VALUES (3, 3, 1, to_date('2023-04-24', 'YYYY-MM-DD'), to_date('2023-04-28', 'YYYY-MM-DD'), 0);
 
 -- Send a notification to the employee when a vacation is validated
 CREATE OR REPLACE TRIGGER TRIGGER_VACATION_VALIDATED
