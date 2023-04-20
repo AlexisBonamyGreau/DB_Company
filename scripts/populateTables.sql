@@ -9,7 +9,7 @@ TRUNCATE TABLE HORAIRE CASCADE;
 -- Insertion des données dans la table EMPLOYE
 INSERT INTO EMPLOYE VALUES (1, 'Dupont', 'Jean', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'jean.dupont@company.com', 'pass', 'Directeur Général', 1, 1);
 INSERT INTO EMPLOYE VALUES (2, 'Durand', 'Pierre', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'pierre.durand@company.com', 'pass', 'Directeur de service', 1, 1);
-INSERT INTO EMPLOYE VALUES (3, 'Martin', 'Paul', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'paul.martin@company.com', 'pass', 'Directeur de service', 1, 1);
+INSERT INTO EMPLOYE VALUES (3, 'Martin', 'Paul', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'paul.martin@company.com', 'pass', 'Directeur de service', 0, 1);
 INSERT INTO EMPLOYE VALUES (4, 'Bernard', 'Jacques', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'bernard.jacques@company.com', 'pass', 'Ingenieur conception', 1, 0);
 INSERT INTO EMPLOYE VALUES (5, 'Thomas', 'Alexandre', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'thomas.alexandre@company.com', 'pass', 'Ingenieur conception', 1, 0);
 INSERT INTO EMPLOYE VALUES (6, 'Petit', 'Robert', to_date('2000-01-01', 'YYYY-MM-DD'), '2 rue de la Paix', '0606060606', 'petit.robert@company.com', 'pass', 'Ingenieur conception', 1, 0);
