@@ -1,20 +1,3 @@
--- Check if an employe can work from home before creating a word from home request
-CREATE OR REPLACE TRIGGER TELETRAVAIL_TT_POSSIBLE_TRG
-BEFORE INSERT ON TELETRAVAIL
-FOR EACH ROW
-DECLARE
-    tt_possible INTEGER;
-BEGIN
-    SELECT tt_possible INTO tt_possible FROM EMPLOYE WHERE id_emp = :new.id_employe;
-    IF tt_possible <> 1 THEN
-        RAISE_APPLICATION_ERROR(-20001, 'Le télétrvail est impossibe pour cet employé');
-    END IF;
-END;
-/
--- Test
-INSERT INTO TELETRAVAIL VALUES (3, 3, 1, to_date('2023-04-24', 'YYYY-MM-DD'), to_date('2023-04-28', 'YYYY-MM-DD'), 0);
-
-
 -- Send a notification to the responsibles when an employee asks for a vacation
 CREATE SEQUENCE NOTIFICATION_SEQ;
 CREATE OR REPLACE TRIGGER TRIGGER_VACATION
@@ -77,3 +60,20 @@ END;
 /
 -- Test
 UPDATE CONGES SET est_valide = 1 WHERE id_conges = 2;
+
+
+-- Check if an employe can work from home before creating a word from home request
+CREATE OR REPLACE TRIGGER TELETRAVAIL_TT_POSSIBLE_TRG
+BEFORE INSERT ON TELETRAVAIL
+FOR EACH ROW
+DECLARE
+    tt_possible INTEGER;
+BEGIN
+    SELECT tt_possible INTO tt_possible FROM EMPLOYE WHERE id_emp = :new.id_employe;
+    IF tt_possible <> 1 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Le télétrvail est impossibe pour cet employé');
+    END IF;
+END;
+/
+-- Test
+INSERT INTO TELETRAVAIL VALUES (3, 3, 1, to_date('2023-04-24', 'YYYY-MM-DD'), to_date('2023-04-28', 'YYYY-MM-DD'), 0);
